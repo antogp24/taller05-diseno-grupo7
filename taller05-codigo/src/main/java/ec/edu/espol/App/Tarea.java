@@ -26,4 +26,12 @@ public class Tarea {
         }
         return true;
     }
+
+    public void setPrioridad(Prioridad prioridad){
+        this.prioridad=prioridad;
+    }
+
+    public void setVencimiento(LocalDateTime vencimiento){
+        this.vencimiento=vencimiento;
+    }
 }

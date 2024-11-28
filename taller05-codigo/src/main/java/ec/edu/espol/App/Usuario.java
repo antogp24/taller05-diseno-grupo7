@@ -31,6 +31,10 @@ public class Usuario implements Suscriptor {
         )
     );
 
+    public List<Tarea> getTareas(){
+        return tareas;
+    }
+
     @Override
     public List<Evento> getEventos() {
         return EVENTOS_SUSCRITOS;

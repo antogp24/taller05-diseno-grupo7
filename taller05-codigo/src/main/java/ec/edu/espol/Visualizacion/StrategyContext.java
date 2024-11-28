@@ -1,3 +1,4 @@
+package ec.edu.espol.Visualizacion;
 public class StrategyContext{
     private Strategy estrategia;
     public void cambiarEstrategia(Strategy estra){
